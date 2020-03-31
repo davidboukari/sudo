@@ -29,3 +29,9 @@ aaronkilik ALL=(ALL) NOPASSWD: /bin/kill
 %sys ALL=(ALL) NOPASSWD: ALL
 %sys ALL=(ALL) NOPASSWD: /bin/kill, /bin/rm
 ```
+
+## Exec multiple commands
+
+```bash
+sudo -- bash -c 'apt-get update -y && apt-get install fail2ban -y
+```
