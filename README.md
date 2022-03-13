@@ -35,3 +35,8 @@ aaronkilik ALL=(ALL) NOPASSWD: /bin/kill
 ```bash
 sudo -- bash -c 'apt-get update -y && apt-get install fail2ban -y
 ```
+
+## su
+```
+su -s /bin/sh -c "nova-manage db sync" nova
+```
