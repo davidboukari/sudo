@@ -40,3 +40,8 @@ sudo -- bash -c 'apt-get update -y && apt-get install fail2ban -y
 ```
 su -s /bin/sh -c "nova-manage db sync" nova
 ```
+
+* Force reload groups
+```
+exec su -l $USER
+```
